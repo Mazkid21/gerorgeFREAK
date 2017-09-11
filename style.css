@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+
+/* Please Keep this font import at the very top of any CSS file */
+
+
+
+.navbar-inverse {
+  background-color: #ffffff;
+ border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #d76b0b;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+
+#background {
+
+  height: 600px;
+  background-image: url("assets/Geroge-background.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-position: center; 
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+#tag-line-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 100px;
+  margin-top: 30px;
+  flex-direction: row;
+}
+
+#socail-tags-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+#tag-line {
+  
+  font-family: 'Libre Barcode 39 Text', cursive;
+  background-position: center;
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 80px;
+  order: 1;
+
+}
+
+.social-tags {
+  width: 40px;
+  margin-top: 5px;
+
+}
